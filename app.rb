@@ -1,9 +1,10 @@
 require 'sinatra'
+require 'rack'
 
-class RPS < Sinatra::Base
-
+class Rps < Sinatra::Base
+  enable :sessions
   get '/' do
-    erb(:homepage)
+    erb(:index)
   end
 
   run! if app_file == $0
