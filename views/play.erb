@@ -1,2 +1,23 @@
+<font size = "3" color = "red" >
+   <div align="middle">
+<h1> <%= @player_1_name %> vs. <%= "The Computer" %> </h1>
+</font>
 
-<%= @player_1_name %> vs. <%= "The Computer" %>
+<br>
+
+<font size = "3" color = "red" >
+   <div align="middle">
+<h1> <%= "Time to make a choice" %> </h1>
+
+<font size = "3" color = "red" >
+   <div align="middle">
+<form action="/game">
+  <input type="submit" value="Rock">
+</form>
+<form action="/game">
+  <input type="submit" value="Paper">
+</form>
+<form action="/game">
+  <input type="submit" value="Scissors">
+</form>
+  <div>
