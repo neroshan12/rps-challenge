@@ -14,7 +14,6 @@ require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
 
-
 # tell Capybara about our app class
 Capybara.app = Rps
 
